@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameMenu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TotalCashtext"
+        android:text="TOTAL CASH: $0"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
+        android:textStyle="italic"/>
+
+    <ImageButton
+        android:id="@+id/PlaygameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TotalCashtext"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/play_button"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/Carsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PlaygameButton"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/select_name"/>
+
+
+
+
+</RelativeLayout>
