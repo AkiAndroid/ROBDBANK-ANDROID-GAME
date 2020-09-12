@@ -1,15 +1,13 @@
-package com.example.crazyparking;
+package com.example.ROBDBANK;
 
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Point;
-import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 public class CarInfo
 {
