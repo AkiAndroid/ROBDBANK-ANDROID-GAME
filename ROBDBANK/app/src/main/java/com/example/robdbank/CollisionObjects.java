@@ -15,7 +15,7 @@ public class CollisionObjects
     GAMEinfo gamEinfo;
 
 
-    int totalobj = 25;
+    int totalobj = 15;
 
     public CollisionObjects(int width,int height, Point Start, Point End,GAMEinfo gamEinfo)
     {
